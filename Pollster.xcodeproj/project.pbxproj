@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225786031E0611D5001D78CA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225786021E0611D5001D78CA /* CloudKit.framework */; };
 		2258D7BA1DEB9A3000BF3793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258D7B91DEB9A3000BF3793 /* AppDelegate.swift */; };
 		2258D7BF1DEB9A3000BF3793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2258D7BD1DEB9A3000BF3793 /* Main.storyboard */; };
 		2258D7C11DEB9A3000BF3793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2258D7C01DEB9A3000BF3793 /* Assets.xcassets */; };
@@ -16,10 +17,10 @@
 		2258D7D11DEB9C5300BF3793 /* QandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258D7D01DEB9C5300BF3793 /* QandATableViewController.swift */; };
 		2258D7D31DEB9C7A00BF3793 /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258D7D21DEB9C7A00BF3793 /* TextTableViewController.swift */; };
 		2258D7D51DEBAD3700BF3793 /* CloudQandATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258D7D41DEBAD3700BF3793 /* CloudQandATableViewController.swift */; };
-		2258D7DB1DEBBACD00BF3793 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2258D7DA1DEBBACD00BF3793 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225786021E0611D5001D78CA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		2258D7B61DEB9A3000BF3793 /* Pollster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2258D7B91DEB9A3000BF3793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2258D7BE1DEB9A3000BF3793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		2258D7D21DEB9C7A00BF3793 /* TextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
 		2258D7D41DEBAD3700BF3793 /* CloudQandATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudQandATableViewController.swift; sourceTree = "<group>"; };
 		2258D7D61DEBB8C700BF3793 /* Pollster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pollster.entitlements; sourceTree = "<group>"; };
-		2258D7DA1DEBBACD00BF3793 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2258D7DB1DEBBACD00BF3793 /* CloudKit.framework in Frameworks */,
+				225786031E0611D5001D78CA /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 		2258D7D71DEBB8DD00BF3793 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2258D7DA1DEBBACD00BF3793 /* CloudKit.framework */,
+				225786021E0611D5001D78CA /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.iCloud = {
 								enabled = 1;

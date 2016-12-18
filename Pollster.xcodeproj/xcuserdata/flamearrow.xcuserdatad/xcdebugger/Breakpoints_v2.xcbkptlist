@@ -67,5 +67,228 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/CloudQandATableViewController.swift"
+            timestampString = "503714121.087007"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "iCloudSaveRecord(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.(iCloudSaveRecord in _16C20375C936AE59A4CDC3877186B594) (__ObjC.CKRecord) -&gt; ()"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503716181.992612"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.((iCloudSaveRecord in _16C20375C936AE59A4CDC3877186B594) (__ObjC.CKRecord) -&gt; ()).(closure #1)"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503716181.995144"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/CloudQandATableViewController.swift"
+            timestampString = "503714287.392737"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "CloudQandATableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.init (style : __C.UITableViewStyle) -&gt; Pollster.CloudQandATableViewController"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503714627.112033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Pollster.CloudQandATableViewController"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503714627.114206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Pollster.CloudQandATableViewController&gt;"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503714627.116078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/TextTableViewController.swift"
+            timestampString = "503715817.204338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "textViewDidChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/TextTableViewController.swift"
+            timestampString = "503715817.204338"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "textViewDidChange(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/CloudQandATableViewController.swift"
+            timestampString = "503715727.101143"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/CloudQandATableViewController.swift"
+            timestampString = "503715825.934534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pollster/CloudQandATableViewController.swift"
+            timestampString = "503715907.486127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "retryAfterError(_:withSelector:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.(retryAfterError in _16C20375C936AE59A4CDC3877186B594) (Swift.Optional&lt;Swift.Error&gt;, withSelector : ObjectiveC.Selector) -&gt; ()"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503716182.030325"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pollster.CloudQandATableViewController.(retryAfterError in _16C20375C936AE59A4CDC3877186B594) (Swift.Optional&lt;Swift.Error&gt;, withSelector : ObjectiveC.Selector) -&gt; ()"
+                  moduleName = "Pollster"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/flamearrow/Desktop/ios/projects/Pollster/Pollster/CloudQandATableViewController.swift"
+                  timestampString = "503716182.032786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "262">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

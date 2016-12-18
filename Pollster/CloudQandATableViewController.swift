@@ -47,10 +47,13 @@ class CloudQandATableViewController: QandATableViewController {
     
     private func iCloudSaveRecord(_ recordToSave: CKRecord) {
         iCloudDatabase.save(recordToSave) { (savedRecord, error) in
-            if error != nil {
-                DispatchQueue.main.async {
-                    self.retryAfterError(error, withSelector: #selector(self.iCloudUpdate))
+            // need to cast into cloud kit error
+            if let ckError = error as? CKError {
+                if ckError.code == .serverRecordChanged {
+                    // ignore, we need the new data
                 }
+            } else if error != nil {
+                self.retryAfterError(error, withSelector: #selector(self.iCloudUpdate))
             }
         }
     }
@@ -58,12 +61,14 @@ class CloudQandATableViewController: QandATableViewController {
     private func retryAfterError(_ error: Error?, withSelector selector: Selector) {
         if let nsError = error as? NSError {
             if let retryInterval = nsError.userInfo[CKErrorRetryAfterKey] as? TimeInterval {
-                Timer.scheduledTimer(
-                    timeInterval: retryInterval,
-                    target: self,
-                    selector: selector,
-                    userInfo: nil,
-                    repeats: false)
+                DispatchQueue.main.async {
+                    Timer.scheduledTimer(
+                        timeInterval: retryInterval,
+                        target: self,
+                        selector: selector,
+                        userInfo: nil,
+                        repeats: false)
+                }
             }
         }
     }
@@ -73,6 +78,11 @@ class CloudQandATableViewController: QandATableViewController {
 //        super.textViewDidEndEditing(textView: textView)
 //        iCloudUpdate()
 //    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        super.textViewDidEndEditing(textView: textView)
+        iCloudUpdate()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
